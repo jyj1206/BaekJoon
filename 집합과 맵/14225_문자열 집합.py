@@ -16,6 +16,5 @@ count=0
 for word in M:
     if word in _dict:
         count+=1
-        print(count, word)
 
 print(count)

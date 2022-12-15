@@ -34,13 +34,9 @@ for i in range(t):
 #             sorted_arr.append(low_arr[l])
 #             l+=1
 #     while h<len(high_arr):
-#             sorted_arr.append(high_arr[h])
+#             sorted_arr.append(high_arr[h])    
 #             h+=1
 #     return sorted_arr
 
 # number=merge_sort(number)
 # print(number)
-
-#힙정렬
-
-
