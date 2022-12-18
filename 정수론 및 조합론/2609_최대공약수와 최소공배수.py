@@ -4,7 +4,7 @@ def Euclidian_algorithm(a,b):
         return b
     else : return Euclidian_algorithm(b,a%b)
 
-GCF = Euclidian_algorithm(n,m)
-print(GCF)
-LCM = n*m//GCF
+GCD = Euclidian_algorithm(n,m)
+print(GCD)
+LCM = n*m//GCD
 print(LCM)
