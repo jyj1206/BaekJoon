@@ -6,7 +6,7 @@ for i in range(n):
     word=input().strip()
     _dict[word]=i+1
     _dict[i+1]=word
-
+    
 for i in range(m):
     quest=input().strip()
     if quest.isdigit()==True:
