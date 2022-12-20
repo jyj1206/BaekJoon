@@ -8,7 +8,7 @@ for i in range(6):
     direction.append(d)
     length.append(l)
 
-#한 인덱스를 건너띄고 같은 경우 
+# 1, 3, 1, 3 처럼 방향이 번갈아 가며 등장하면 
 for i in range(6):
     if direction[i]==direction[(i+2)%6] and direction[(i+1)%6]==direction[(i+3)%6]:
         break
