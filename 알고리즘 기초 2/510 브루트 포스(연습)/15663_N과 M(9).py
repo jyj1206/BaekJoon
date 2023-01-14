@@ -4,7 +4,6 @@ result=[]
 nums.sort()
 visited=[False]*n
 
-
 def func(depth):
   if depth==m:
     print(*result)
