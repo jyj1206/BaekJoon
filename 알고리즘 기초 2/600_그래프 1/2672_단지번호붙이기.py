@@ -18,6 +18,7 @@ def dfs(i,j):
     nj=j+dc[k]
     if  0<=ni<n and 0<=nj<n and table[ni][nj]!=0:
       dfs(ni,nj)
+      
   # if -1<i+dr[0] and table[i+dr[0]][j+dc[0]]!=0:
   #   dfs(i+dr[0],j+dc[0])
     
