@@ -36,5 +36,6 @@ def solution():
         if cycle:
           return True
   return False
+
 print('Yes' if solution() else 'No')
 

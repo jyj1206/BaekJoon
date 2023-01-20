@@ -4,7 +4,7 @@ input = sys.stdin.readline
 v=int(input())
 e=int(input())
 graph={}
-visited=[0]*v
+visited=[0]*(v+1)
 for i in range(1,v+1):
   graph[i]=[]
   
