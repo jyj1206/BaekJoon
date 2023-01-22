@@ -41,7 +41,6 @@ def bfs(border):
           # 다리가 이미 있는데, 서로 다른 섬에서 지어졌으면 
           if bridge[nx][ny] and visited[nx][ny]!=visited[x][y]: 
             return bridge[nx][ny]+bridge[x][y]
-        
 
 border=set()
 cnt=1
