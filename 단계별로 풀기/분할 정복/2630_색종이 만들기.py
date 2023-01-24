@@ -14,7 +14,7 @@ def dq(cur_x,cur_y,n):
       blue_cnt+=1
     else:
       white_cnt+=1
-  return
+    return
 
   blue=0
   white=0
