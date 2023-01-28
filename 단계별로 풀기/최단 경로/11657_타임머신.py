@@ -33,4 +33,4 @@ if negative_cycle:
   print(-1)
 else:
   for i in range(2,n+1):
-    print(-1 if dist[i]==INF else dist[i])
+    print(-1 if dist[i]==INF else dist[i])  
