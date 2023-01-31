@@ -6,5 +6,5 @@ day=y-1
 
 for i in range(month_diff):
   day+=month[i]
-print(day)
+
 print(day_of_week[day%7])
