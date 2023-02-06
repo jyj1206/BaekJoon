@@ -9,12 +9,4 @@ ans=0
 for i, cur_h in enumerate(p):
   while stack and stack[-1][0]<cur_h:
     h, idx =stack.pop()
-    ans+=(i-idx)
     
-  stack.append((cur_h,i))
-
-while stack:
-  h, idx =stack.pop()
-  ans+=(n-1)-idx
-
-print(ans)
