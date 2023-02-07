@@ -52,6 +52,5 @@ for i in range(n):
       board[i][j]=0
 
 
-
 for b in board:
   print("".join(map(str,b)))
