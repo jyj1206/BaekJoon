@@ -15,13 +15,12 @@ def find_k(base):
   
 def upperbound():
   left = 1
-  right = max_lan+1
-  while left < right:
+  right = max_lan
+  while left <= right:
     mid = (left + right)//2
     cur_n = find_k(mid)
-    
     if cur_n < n :
-      right = mid
+      right = mid -1
     else:
       left = mid +1
   return left
