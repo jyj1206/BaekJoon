@@ -19,9 +19,10 @@ right = max(trees)
 while left <= right:
   mid = (left + right)//2
   cur_m = cut_tree(mid)
-  if cur_m < m:
-    right = mid-1
-  else :
+  if cur_m >= m:
     left = mid+1
+  else :
+    right = mid-1
+    
 
 print(left-1)

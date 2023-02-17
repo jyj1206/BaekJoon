@@ -9,4 +9,5 @@ for i in range(n):
     if a[j][1]<a[i][1]:
       dp[i]=max(dp[j]+1,dp[i])
 
+print(dp)
 print(n-max(dp))
