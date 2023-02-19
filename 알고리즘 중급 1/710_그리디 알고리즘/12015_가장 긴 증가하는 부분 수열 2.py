@@ -1,10 +1,10 @@
 import sys
 input = sys.stdin.readline
 
-def lower_bound(start, end, num) :
+def lower_bound(start, end, target) :
   while start <= end :
     mid = (start + end) // 2
-    if num <= d[mid] :
+    if d[mid] >= target :
       end = mid - 1
     else:
       start = mid + 1
