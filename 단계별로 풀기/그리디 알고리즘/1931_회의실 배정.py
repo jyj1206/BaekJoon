@@ -15,5 +15,4 @@ for i in range(n):
   if session[i][0]>=last:
     last=session[i][1]
     cnt+=1
-    
 print(cnt)
