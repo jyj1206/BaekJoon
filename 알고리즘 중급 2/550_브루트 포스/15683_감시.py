@@ -1,4 +1,9 @@
 # 풀이 1 - 수정
+import sys
+input = sys.stdin.readline
+n, m = map(int, input().split())
+cctv = []
+
 
 # 풀이 2
 # import sys
