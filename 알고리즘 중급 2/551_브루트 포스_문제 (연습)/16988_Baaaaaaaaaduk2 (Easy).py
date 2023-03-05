@@ -21,6 +21,6 @@ for ((x1, y1), (x2, y2)) in combinations(blank, 2):
   for i in range(n):
     for j in range(m):
       if board[i][j] == '2' and not visited[i][j]:
-        bfs(i, j)
+        pass
   board[x1][y1] = 0
   board[x2][y2] = 0
